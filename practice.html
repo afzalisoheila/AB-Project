@@ -2,26 +2,134 @@
 <html>
     <head>
         <title>welcome to my website</title>
-    </head>
-
-    <body style="margin: 0px;">
-
-        <header style="background-color: blueviolet; height: 150px; width: auto;"></header>
-        <main style="background-color: cadetblue;height: 700px;width: auto; margin: 0px;"></main>
-        <footer style="background-color: brown;height: 300px;width: auto;"></footer>
-
-    thank you for your visit!
-    <br><br><br>
-    please log in!
-    <button>Login</button>
-    <br><br><br>
-    Not registred yet! please sign up NOW!
-    <br><br><br>
-    name:<input type="text"><br><br><br>
-    phone number:<input type="number"><br><br><br>
-    password:<input type="password"><br><br><br>
-    <button>go to the new collection directly!</button>
+        <style>
     
+    body{
+        margin: 0px;
+    }
+
+    header{
+        background-color: blue;
+        height: 150px; 
+        width: auto;
+    }
+
+    #top-header{
+        background-color: rgb(10, 156, 112);
+        height: 90px; 
+        width: auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+    }
+    #logo{
+        width: 150px;
+        height: 20px;
+        background-color: saddlebrown;
+        margin: 10px;
+       
+
+    }
+    #search{
+        width: 150px;
+        height: 20px;
+        background-color: saddlebrown;
+        margin: 10px;
+        
+
+    }
+    #icons{
+        width: 150px;
+        height: 20px;
+        background-color: saddlebrown;
+        margin: 10px;
+        
+
+    }
+
+
+
+
+
+
+    #bottom-header{
+
+        background-color: rgb(226, 132, 9);
+        height: 60px; 
+        width: auto;
+    }
+    main{
+
+        background-color: rgb(184, 13, 93);
+        height: 700px; 
+        width: auto;
+    }
+input{
+    background-color: rgb(37, 41, 241);
+    height: 20px;
+    width: 30px;
+    color: rgb(3, 1, 5);
+    margin: 10px;
+
+}
+
+button{
+    background-color: rgb(37, 41, 241);
+    height: 20px;
+    width: 300px;
+    color: rgb(3, 1, 5);
+    margin: 10px;
+}
+    footer{
+        background-color: rgb(3, 1, 5);
+        height: 300px; 
+        width: auto;
+
+
+    }
+
+
+        
+    
+</style>
+    </head>
+<header>
+    <div id="top-header">
+        <div id="logo">
+            logo
+        </div>
+        <div id="search">
+            search
+        </div>
+        <div id="icons">
+            icons
+        </div>
+    </div>
+
+
+    <div id="bottom-header"></div>
+
+</header>
+
+<main>
+
+<div>thank you for your visit!</div> 
+    <div>please log in!</div> 
+    <div id = "button">Login</div>
+    <div>Not registred yet! please sign up NOW!</div>
+    
+    <div>name:<input type="text">
+    </div>
+    
+    
+    <div>number:<input type="number"></div> 
+    <div>password:<input type="password"></div> 
+    <div><button>go to the new collection directly!</button></div>
+</main>
+   
+    <footer></footer>
     
     </body>
     

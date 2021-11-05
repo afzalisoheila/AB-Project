@@ -9,16 +9,23 @@
         
       }
       header {
-        background-color: blueviolet;
+        background-color: blue;
         height: 150px;
         width: auto;
         color: orange;
+        
+        
       }
 
       #top-header {
         background-color: aqua;
         width: auto;
         height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center ;
       }
       #logo{
         width: 150px;
@@ -45,7 +52,7 @@
       
 
       #bottom-header {
-        background-color: beige;
+        background-color: rgb(199, 199, 32);
         width: auto;
         height: 60px;
       }
@@ -61,6 +68,22 @@
       }
       input {
         background-color: chartreuse;
+        width: 50px; 
+        height: 20px;
+        margin: 10px;
+        
+        
+      }
+      button{
+        background-color: rgb(247, 142, 22);
+        width: 100px; 
+        height: 20px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+
       }
     </style>
   </head>
@@ -78,24 +101,24 @@
       <!--##########top-header finishes#########-->
       <div id="bottom-header"></div>
     </header>
-    <main>thank you for your visit.<br /><br /><br />
-      all together, we overcome COVID-19 pandemy.<br /><br /><br />
-      Push to sign in!
+    <main>
+      <div>all together, we overcome COVID-19 pandemy.</div> 
+      
+      <div>push to sign in!</div> 
   
       <button>push</button>
-      <br /><br /><br />
-      NO account yet! Sign up NOW!
-      <br /><br />
-      Name:<input /> <br /><br />
-      Last name:<input /> <br /><br />
-      password:<input type="password" /> <br /><br />
-      repeat password:<input type="password" /> <br /><br /><br /> 
-      <button>sign up </button><br /><br /><br />
+     
+      <div>account yet! Sign up NOW!</div> 
       
-      New Winter
-      collection!
+      <div>name <input type="text":></div>
+      <div>Last name:<input type="text"/></div>
+      <div>password:<input type="password" /></div>
+      <div>repeat password:<input type="password" /></div>
+      <div><button>sign up </button></div>
+      
+      <div>Winter collection!</div> 
   
-      <button>GO NOW!</button>
+      <div><button>GO NOW!</button></div>
 
     </main>
     <footer></footer>
