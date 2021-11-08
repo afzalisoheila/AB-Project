@@ -9,7 +9,7 @@
     }
 
     header{
-        background-color: blue;
+background-color: blue;
         height: 150px; 
         width: auto;
     }
@@ -89,7 +89,13 @@ button{
 
 
     }
-
+#parent_btns{
+    background-color: beige;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 150px;
+}
 
         
     
@@ -115,7 +121,7 @@ button{
 
 <main>
 
-<div>thank you for your visit!</div> 
+    <div>thank you for your visit!</div> 
     <div>please log in!</div> 
     <div id = "button">Login</div>
     <div>Not registred yet! please sign up NOW!</div>
@@ -126,7 +132,10 @@ button{
     
     <div>number:<input type="number"></div> 
     <div>password:<input type="password"></div> 
-    <div><button>go to the new collection directly!</button></div>
+    <div id="parent_btns">
+        <button>go to the new collection directly!</button>
+        <button> test</button>
+    </div>
 </main>
    
     <footer></footer>
