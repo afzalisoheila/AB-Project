@@ -16,7 +16,7 @@
         height: 90px;
         display: flex;
         align-items: center;
-       justify-content: center;
+       justify-content: space-between;
         flex-direction: row;
         text-align: center ;
       }
@@ -29,19 +29,18 @@
         
       }   
 #search{
-  width: 600px;
-        height: 50px;
-        
-        
-
+  display: flex;
+  
 }
-#search input{
+#search input {
   background-color: beige;
   color:#333 ;
-  border: none;
-  border: radius 10px;
+  border:none ;
+  border-radius: 0,10px,0,10px;
 }
-
+#search button{
+  background-color: orange;
+}
 #icons{
   width: 150px;
         height: 20px;
@@ -77,24 +76,26 @@
       <!--##########top-header starts###########-->
       <div id="top-header">
       <div id="logo">
+        </div>
         
       <img id= "logo-image" src= "images/download.png">
-      </div>
+      
       <div id="search">
         <input type="text" placeholder="what are you looking for?">
-        <button>search</button>
         <select>
           <option>products</option>
           <option>fashion</option>
           <option>digitals</option>
           <option>home and kitchen</option>
           
-
         </select>
+        <button>search</button>
+        
       </div>
+
       <div id="icons">icons</div>
       </div>
-      <!--##########top-header finishes#########-->
+    
       <div id="bottom-header"></div>
     </header>
     <main>
