@@ -22,24 +22,44 @@ background-color: blue;
         align-items: center;
         justify-content: space-around;
         flex-direction: row;
-        text-align: center;
+       
     }
-    #logo{
+    #logo-images{
         width: 150px;
         height: 20px;
-        
-        margin: 10px;
-       
+         
 
     }
     #search{
-        width: 150px;
-        height: 20px;
-        background-color: saddlebrown;
-        margin: 10px;
+        display: flex;
+            
+
+    }
+    #search input{
+        color: rgb(3, 1, 5);
+        border: none;
+        border-radius:10px 0 0 10px;
+        background-color:tan;
+    }
+
+    #search button{
+        border: none;
+        border-radius: 0 10px 10px 0;
+        color: rgb(3, 1, 5);
+
+background-color: tan;
+
+    }
+    
+    #search select{
+        border: none;
+        color: rgb(3, 1, 5);
+        background-color: tan;
         
 
     }
+
+
     #icons{
         width: 150px;
         height: 20px;
@@ -67,20 +87,14 @@ background-color: blue;
         width: auto;
     }
 input{
-    background-color: rgb(37, 41, 241);
-    height: 20px;
-    width: 30px;
-    color: rgb(3, 1, 5);
-    margin: 10px;
+    
+    
 
 }
 
 button{
-    background-color: rgb(37, 41, 241);
-    height: 20px;
-    width: 300px;
-    color: rgb(3, 1, 5);
-    margin: 10px;
+    
+    
 }
     footer{
         background-color: rgb(3, 1, 5);
@@ -89,13 +103,6 @@ button{
 
 
     }
-#parent_btns{
-    background-color: beige;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 150px;
-}
 
         
     
@@ -104,13 +111,24 @@ height: 150px;
 <header>
     <div id="top-header">
        <div id="logo">
-           <div image id="logo-image" src="images/download(1).png">
+       
+           <img id="logo-images"src="images/TB1pDDmmF67gK0jSZPfXXahhFXa-2814-380.webp">
 
             
+       </div>
+        <div id="search"> 
+            <input type="text"  placeholder="what are you looking for?">
+        
+        
+            <select>
+                <option>all products</option>
+                <option>home</option>
+                <option>kids</option>
+
+            </select>
+        <button>search</button>
         </div>
-        <div id="search">
-            search
-        </div>
+
         <div id="icons">
             icons
         </div>

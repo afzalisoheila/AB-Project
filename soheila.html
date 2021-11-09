@@ -30,23 +30,27 @@
       }   
 #search{
   display: flex;
-  
 }
+
 #search input {
   background-color: beige;
   color:#333 ;
-  border:none ;
+  
+  border-color: orangered;
   border-radius: 10px 0 0 10px;
 }
 #search button{
   background-color: orange;
   border-radius:0 10px 10px 0 ;
-  border: none;
+ 
+  border-color: orangered;
 }
+
 #search select {
   background-color: beige;
   color:#333 ;
-  border: none;
+  
+  border-color: orangered;
 }
 #icons{
   width: 150px;
@@ -80,15 +84,16 @@
   </head>
   
     <header>
-      <!--##########top-header starts###########-->
+     
       <div id="top-header">
       <div id="logo">
-        </div>
+        <img id= "logo-image" src= "images/download.png">
+      </div>
         
-      <img id= "logo-image" src= "images/download.png">
+      
       
       <div id="search">
-        <input type="text" placeholder="what are you looking for?">
+        <input type="text"placeholder="what are you looking for?" >
         <select>
           <option>products</option>
           <option>fashion</option>
