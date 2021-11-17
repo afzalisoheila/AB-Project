@@ -49,10 +49,11 @@ background-color: blue;
     color: white;
     background-color: #ff3b00;
     border-radius:0 33px 33px 0 ;
-    width: 15%;
+    width: 30%;
     border-width: 3px;
     border-style: solid;
     border-color:#ff3b00;
+    /* padding:10px ; */
 }
 
 #search select{
@@ -89,11 +90,42 @@ background-color: blue;
     height: 60px; 
     width: auto;
 }
+/* ///////////////slider////////////// */
+#slider img{
+    width: 100%;
+    
+}
+
+#buyer-protection{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.icon-buyer-protection{
+        /* background-color: rgb(221, 216, 216); */
+        border-radius: 50%;
+        padding: 10px 10px;
+        margin-right: 8px;
+        height: 25px;
+        width: 26px;
+        display: inline-block;
+        box-shadow: 0px 1px 10px 0 #00000082;
+
+
+}
+.search_btn img{
+    width: 30%;
+    display: inline-block;
+    height: 50%;
+}
 main{
 
     background-color: rgb(184, 13, 93);
-    height: 700px; 
-    width: auto;
+    height: 700px;
+    width: 100%;
+    /* display: flex; */
 }
 input{
 

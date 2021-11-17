@@ -73,9 +73,17 @@ width: 150px;
   }
   main {
     background-color: cadetblue;
-    height: 700px;
-    width: auto;
+    /* height: 700px; */
+    /* width: auto; */
+    /* font-display: flex; */
+    
   }
+  #slider img{
+    
+    width: 100%;
+    /* height: ; */
+  }
+
   footer {
     background-color: brown;
     height: 300px;
