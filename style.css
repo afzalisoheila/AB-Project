@@ -42,7 +42,7 @@ body {
 #search button {
   background-color: orangered;
   border-radius: 0 18px 18px 0;
-  border-color: orangered; 
+  border-color: orangered;
   width: 128px;
   padding: 0 10px;
   display: flex;
@@ -53,12 +53,11 @@ body {
   border-style: solid;
   border-color: orangered;
   border-width: 3px;
-  color: white; 
+  color: white;
 }
 .search_btn img {
   width: 30px;
   display: inline-block;
-  
 }
 
 #search select {
@@ -74,7 +73,7 @@ body {
 }
 #icons_topheader {
   display: flex;
-
+  width: 30%;
   justify-content: space-around;
   align-items: center;
   height: 50px;
@@ -86,7 +85,7 @@ body {
   height: 25px;
   width: 26px;
   display: inline-block;
-  box-shadow: 0px 1px 10px 0 #00000082; 
+  box-shadow: 0px 1px 10px 0 #00000082;
 }
 
 #bottom-header {
