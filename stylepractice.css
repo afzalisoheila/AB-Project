@@ -84,23 +84,18 @@ header {
   margin: 5px;
 }
 .fab {
-    color: #252424;
-    font-size: 15pt;
-    margin: 5px;
+  color: #252424;
+  font-size: 15pt;
+  margin: 5px;
 }
 
 .fas {
-    color: #252424;
-    font-size: 15pt;
-    margin: 5px;
-
+  color: #252424;
+  font-size: 15pt;
+  margin: 5px;
 }
 
 /* ///////////banners/////////// */
-
-
-
-
 
 #bottom-header {
   background-color: rgb(226, 132, 9);
@@ -136,7 +131,7 @@ header {
 }
 main {
   background-color: rgb(184, 13, 93);
-  height: 700px;
+  min-height: 700px;
   width: 100%;
   /* display: flex; */
 }
@@ -152,45 +147,85 @@ footer {
 }
 /* ///////////banners///////////// */
 
-#banners{
+.banners {
   display: flex;
+  justify-content: space-evenly
 }
-.col-1{
-  display: flex;
- 
+.col-1 {
+  display: ;
 }
-.col-2{
-  display: flex;
+.col-2 {
+  display: ;
+}
+.col-3 {
+  display: ;
+}
+.col-4 {
+  display: ;
+}
+.banners .child-1-col-1 {
+  background-image: url(images/banners/col-1-child-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 335px;
+  height: 200px;
+  margin: 10px;
+}
+.banners .child-2-col-1 {
+  background-image: url(images/banners/col-1-child-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 355px;
+  height: 200px;
+  margin: 10px;
   
 }
-.col-3{
-  display: flex;
-  
-}
-.col-4{
-  display: flex;
- 
-}
-.banners .child-col-1 img{
- width: 100px; 
-height: 200px;
-
-}
-.banners .child-col-2 img{
-  width: 100px; 
-height: 200px;
-  
-
-}
-.banners .child-col-3 img{
-
-width: 100px; 
-height: 200px;
-  
-}
-.banners .child-col-4 img{
-width: 100px; 
-height: 200px;
-  
-
+.banners .child-1-col-2 {
+  background-image: url(images/banners/col-2-child-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 335px;
+  height: 200px;
+  margin: 10px;
 } 
+
+.banners .child-2-col-2 {
+  background-image: url(images/banners/col-2-child-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 335px;
+  height: 200px;
+  margin: 10px;
+ 
+}
+.banners .child-1-col-3 {
+  background-image: url(images/banners/col-3-child-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 335px;
+  height: 200px;
+  margin: 10px;
+ 
+}
+
+.banners .child-2-col-3 {
+  background-image: url(images/banners/col-3-child-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: chocolate;
+  width: 335px;
+  height: 200px;
+  margin: 10px;
+ 
+}
