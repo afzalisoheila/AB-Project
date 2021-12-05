@@ -7,11 +7,18 @@ body {
 
 a{
   text-decoration: none;
+  color:gray;
+  
+  width: -93px;
+  height: 10px;
+  display: inline-block;
+  font-size: small;
+width: -14px; 
 }
 
 header {
-  background-color: blue;
-  height: 150px;
+  /* background-color: blue;
+  height: 150px; */
   
 }
 
@@ -106,9 +113,23 @@ header {
 /* ///////////banners/////////// */
 
 #bottom-header {
-  background-color: rgb(226, 132, 9);
-  height: 60px;
   
+ 
+  
+}
+
+.nav-btm-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  padding: 15px;
+  height: 60px;
+  background-color: rgb(243, 241, 241);
+
+}
+.nav-link:hover{
+  color: #e35300;
 }
 /* ///////////////////main////////////////// */
 main {
