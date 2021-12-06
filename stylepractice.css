@@ -1,31 +1,28 @@
 body {
   margin: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
 }
 
-a{
+a {
   text-decoration: none;
-  color:gray;
-  
+  color: gray;
+
   width: -93px;
   height: 10px;
   display: inline-block;
   font-size: small;
-width: -14px; 
+  width: -14px;
 }
 
 header {
   /* background-color: blue;
   height: 150px; */
-  
 }
 
 #top-header {
-  background-color:white;
+  background-color: white;
   height: 90px;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +37,6 @@ header {
   display: flex;
   width: 50%;
   height: 37px;
-  
 }
 #search input {
   color: rgb(3, 1, 5);
@@ -75,24 +71,33 @@ header {
 #search select {
   color: rgb(3 1 5 / 51%);
   width: 25%;
-  border-color:#e35300;
+  border-color: #e35300;
   border-style: solid;
   border-width: 3px;
   border-left: none;
 }
 
 #icons {
-      
-      height: 25px;
-      margin: 10px;
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: row;
-      width: 25%;
-      padding: 10px 30px;
+  height: 25px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 25%;
+  padding: 10px 30px;
 }
-  
-
+.icons-item {
+  margin-left: 15px;
+  text-align: center;
+}
+.icons-item-user {
+  display: flex;
+}
+.icons-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .far {
   color: #252424;
   font-size: 15pt;
@@ -109,26 +114,27 @@ header {
   font-size: 15pt;
   margin: 5px;
 }
-
+.icons-item:hover{
+  color: #e35300;
+}
+.icons-text:hover{
+  color: #e35300;
+}
 /* ///////////banners/////////// */
 
 #bottom-header {
-  
- 
-  
 }
 
-.nav-btm-header{
+.nav-btm-header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+
   padding: 15px;
   height: 60px;
   background-color: rgb(243, 241, 241);
-
 }
-.nav-link:hover{
+.nav-link:hover {
   color: #e35300;
 }
 /* ///////////////////main////////////////// */
@@ -136,23 +142,23 @@ main {
   background-color: rgb(184, 13, 93);
   min-height: 700px;
   padding-top: 15px;
-  
+
   /* display: flex; */
 }
 
 /* ///////////////slider////////////// */
-#slider{
+#slider {
   display: flex;
   background-color: #ffffff;
   margin: 20px 30px;
   padding: 15px;
 }
 
-#left-category{
+#left-category {
   width: 30%;
   margin-right: 10px;
 }
-.title-left-category{
+.title-left-category {
   border-bottom: rgb(240, 234, 234) solid 1px;
   padding: 5px 10px 15px 5px;
 }
@@ -161,18 +167,18 @@ main {
   width: 50%;
   height: 70%;
 }
-#slider-image img{
+#slider-image img {
   width: 100%;
   height: 100%;
   padding: 20px;
   margin: 15px;
 }
-.category-item{
+.category-item {
   display: flex;
   justify-content: space-between;
   padding: 0 15px;
 }
-.icon-left-category{
+.icon-left-category {
   border-radius: 50%;
   display: inline-block;
   margin-right: 8px;
@@ -180,26 +186,22 @@ main {
   text-align: center;
   width: 30px;
 }
-#icon-left-category{
+#icon-left-category {
   width: 30px;
   height: 25px;
 }
 
-.fa-angle-right{
+.fa-angle-right {
   color: gray;
   font-size: 10pt;
   margin-left: 8px;
   padding: 20px 75px;
 }
 
-.category-item:hover{
+.category-item:hover {
   background-color: rgb(180 179 176 / 14%);
   color: gray;
 }
-
-
-
-
 
 #buyer-protection {
   display: flex;
@@ -240,7 +242,7 @@ footer {
 
 .banners {
   display: flex;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
 .col-1 {
   display: ;
@@ -273,7 +275,6 @@ footer {
   width: 355px;
   height: 200px;
   margin: 10px;
-  
 }
 .banners .child-1-col-2 {
   background-image: url(images/banners/col-2-child-1.jpg);
@@ -284,7 +285,7 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
-} 
+}
 
 .banners .child-2-col-2 {
   background-image: url(images/banners/col-2-child-2.jpg);
@@ -295,7 +296,6 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
- 
 }
 .banners .child-1-col-3 {
   background-image: url(images/banners/col-3-child-1.jpg);
@@ -306,7 +306,6 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
- 
 }
 
 .banners .child-2-col-3 {
@@ -318,14 +317,12 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
- 
 }
-#top-footer{
-      
-      height: 100%;
-      color: white;
-      display: flex;
-      width: 100%; 
-      justify-content: space-around;
-      padding: 15px;
+#top-footer {
+  height: 100%;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 15px;
 }
