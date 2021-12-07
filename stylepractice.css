@@ -11,7 +11,11 @@ a {
   height: 10px;
   display: inline-block;
   font-size: small;
-  width: -14px;
+   width: -14px; 
+}
+ul{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -93,11 +97,10 @@ header {
 .icons-item-user {
   display: flex;
 }
-.icons-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+ .icons-text {
+  display: flex; 
+  
+} 
 .far {
   color: #252424;
   font-size: 15pt;
@@ -234,9 +237,9 @@ input {
 button {
 }
 footer {
-  background-color: rgb(3, 1, 5);
+  background-color: #333;
   height: 300px;
-  width: auto;
+  
 }
 /* ///////////banners///////////// */
 
@@ -325,4 +328,7 @@ footer {
   width: 100%;
   justify-content: space-around;
   padding: 15px;
+}
+.nav-footer{
+  text-decoration: underline;
 }
