@@ -98,7 +98,8 @@ header {
   display: flex;
 }
  .icons-text {
-  display: flex; 
+   display: inline-block;
+  padding: 7px 0;
   
 } 
 .far {
@@ -123,22 +124,67 @@ header {
 .icons-text:hover{
   color: #e35300;
 }
-/* ///////////banners/////////// */
-
+#shopping-cart{
+position: relative;
+}
+.number{
+  position: absolute;
+  color: #e35300;
+  padding: 0 -25px;
+  font-size: 15px;
+  top: -36px;
+  left: 12px;
+}
+.orders{
+  position: relative;
+}
+.sub-orders{
+  background-color: rgb(243 241 241);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 6px rgb(255 255 255);
+  position: absolute;
+  left: -26px;
+  width: 78px;
+  height: 27px;
+  color: gray;
+  font-size: 8pt;
+  display: none; 
+}
+.orders:hover .sub-orders{
+  display: block;
+}
+/* /////////// top nav  /////////// */
 #bottom-header {
 }
-
 .nav-btm-header {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-
   padding: 15px;
   height: 60px;
   background-color: rgb(243, 241, 241);
 }
 .nav-link:hover {
   color: #e35300;
+}
+
+.super-menu{
+  position: relative;
+    margin-left: 15px;
+    padding: 15px;
+}
+.sub-menu{
+  background: white;
+  position: absolute;
+  width: 200px;
+  box-shadow: 0 0 5px #00000047;
+  border-radius: 10px;
+  padding: 19px;
+  left: -20px;
+  display: none;
+}
+.super-menu:hover .sub-menu{
+  display: block;
 }
 /* ///////////////////main////////////////// */
 main {
@@ -335,3 +381,5 @@ footer {
 .nav-footer:hover{
   text-decoration: underline;
 }
+
+
