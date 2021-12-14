@@ -14,8 +14,9 @@ a {
    width: -14px; 
 }
 ul{
-  list-style: none;
+  /* list-style: none; */
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 8px;
 }
 
 header {
@@ -26,10 +27,9 @@ header {
 #top-header {
   background-color: white;
   height: 90px;
-
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-direction: row;
 }
 #logo-images {
@@ -52,6 +52,7 @@ header {
   border-width: 3px;
   border-color: #e35300;
   border-style: solid;
+  margin-left: 8px;
 }
 
 #search button {
@@ -83,12 +84,18 @@ header {
 
 #icons {
   height: 25px;
-  margin: 10px;
+  /* margin: 10px; */
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  width: 25%;
-  padding: 10px 30px;
+  /* width: 25%; */
+  padding: -1px 38px;
+  /* margin-right: 10px; */
+  /* margin-left: 36px; */
+  width: 35%;
+  align-content: stretch;
+  align-items: center;
+  
 }
 .icons-item {
   margin-left: 15px;
@@ -124,7 +131,7 @@ header {
 .icons-text:hover{
   color: #e35300;
 }
-#shopping-cart{
+.shopping-cart{
 position: relative;
 }
 .number{
@@ -135,23 +142,79 @@ position: relative;
   top: -36px;
   left: 12px;
 }
-.orders{
+.menu-icons{
   position: relative;
 }
-.sub-orders{
+.sub-menu-icons{
   background-color: rgb(243 241 241);
   padding: 10px;
   border-radius: 15px;
   box-shadow: 0 0 10px 6px rgb(255 255 255);
   position: absolute;
   left: -26px;
-  width: 78px;
-  height: 27px;
+  width: 104px;
+  height: 122px;
+  color: gray;
+  font-size: 8pt;
+   display: none;
+}
+
+.sub-menu-orders{
+  background-color: rgb(243 241 241);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 6px rgb(255 255 255);
+  position: absolute;
+  left: -5px;
+  width: 92px;
+  height: 145px;
   color: gray;
   font-size: 8pt;
   display: none; 
+
 }
-.orders:hover .sub-orders{
+
+
+.order-text{
+  background-color: rgb(44 43 43 / 62%);
+  color: white;
+  width: 25px;
+  height: 29px;
+  position: sticky;
+  padding: 2px 7px;
+}
+.cart-text{
+  background-color: rgb(243 241 241);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 6px rgb(255 255 255);
+  position: absolute;
+  left: 30px;
+  top: 26px; 
+  width: 121px;
+  height: 40px;
+  color: gray;
+  font-size: 8pt;
+  display: none; 
+  
+}
+.message-login{
+  background-color: #e35300;
+  color: white;
+  width: 95px;
+  height: 24px;
+  border-radius: 25px;
+  margin: 3px;
+}
+.menu-icons:hover .sub-menu-icons{
+  display: block;
+}
+
+.menu-icons:hover .sub-menu-orders{
+  display: block;
+}
+
+.shopping-cart:hover .cart-text{
   display: block;
 }
 /* /////////// top nav  /////////// */
