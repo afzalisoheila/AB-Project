@@ -11,7 +11,6 @@
   <body>
     <header>
       <div id="top-header">
-
         <div id="logo">
           <img
             id="logo-images"
@@ -19,8 +18,18 @@
           />
         </div>
         <div id="search">
-          <input type="text" placeholder="what are you looking for?" />
-
+          <span
+            class="search"
+            type="text"
+            placeholder="what are you looking for?"
+          >
+            <img
+              class="search-image"
+              src="images/icons/2561351_camera_icon.svg"
+            />
+            <span class="search-text">NEW</span>
+          </span>
+          
           <select>
             <option>all products</option>
             <option>home</option>
@@ -46,30 +55,32 @@
             <div class="far fa-comment-dots"></div>
             <div class="menu-icons">
               <a class="icons-text" href="#">messages</a>
-            
-            <div>
-              <span class="sub-menu-icons">
-                <h5>Unread message Reminder</h5>
-                <p>please log-in</p>
-                <p class="message-login">log-in</p>
-              </span>
+
+              <div>
+                <span class="sub-menu-icons">
+                  <h5>Unread message Reminder</h5>
+                  <p>please log-in</p>
+                  <p class="message-login">log-in</p>
+                </span>
+              </div>
             </div>
-          </div>
           </div>
 
           <div class="icons-item">
             <div class="fab fa-first-order"></div>
             <div class="menu-icons">
               <a class="icons-text" href="#">orders</a>
-              <div><span class="sub-menu-orders">
-                <span class="order-text">Free</span>
-                <h5>Trade Assurance</h5>
-                <ul>
-                  <li>Product quality</li>
-                  <li>On time shipment</li>
-                </ul>
-                <h6 class="message-login">order with Trade Assurance</h6>
-              </span></div>
+              <div>
+                <span class="sub-menu-orders">
+                  <span class="order-text">Free</span>
+                  <h5>Trade Assurance</h5>
+                  <ul>
+                    <li>Product quality</li>
+                    <li>On time shipment</li>
+                  </ul>
+                  <h6 class="message-login">order with Trade Assurance</h6>
+                </span>
+              </div>
             </div>
           </div>
 
@@ -78,7 +89,8 @@
             <div class="shopping-cart">
               <a class="icons-text" href="#">cart</a>
               <span class="number">0</span>
-              <span class="cart-text">you haven't login 
+              <span class="cart-text"
+                >you haven't login
                 <a class="icons-text" href="#">Please log-in</a>
               </span>
             </div>

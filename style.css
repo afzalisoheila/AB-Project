@@ -42,19 +42,35 @@ header {
   width: 50%;
   height: 37px;
 }
-#search input {
+.search {
   color: rgb(3, 1, 5);
   border-radius: 33px 0 0 33px;
   border-right: none;
   padding: 11px 19px 11px 19px;
-  width: 50%;
+  width: 50%; 
   outline: none;
   border-width: 3px;
   border-color: #e35300;
   border-style: solid;
   margin-left: 8px;
+  position: relative;
 }
-
+ .search-image{
+  width: 21px;
+  height: 16px;
+  magin-top: 5px;
+  padding: -11px;
+  color: #333;
+ }
+.search-text{
+  width: 26px;
+  height: 12px;
+  background-color: rgb(23 155 23);
+  color: white;
+  position: absolute;
+  font-size: 8pt;
+  top: 3px;
+}
 #search button {
   border: none;
   color: white;
@@ -343,11 +359,7 @@ main {
   /* height: 50%; */
 }
 
-input {
-}
 
-button {
-}
 footer {
   background-color: #333;
   height: 300px;
