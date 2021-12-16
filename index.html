@@ -18,18 +18,17 @@
           />
         </div>
         <div id="search">
-          <span
-            class="search"
+          <input
+            class="search-input"
             type="text"
             placeholder="what are you looking for?"
-          >
-            <img
-              class="search-image"
-              src="images/icons/2561351_camera_icon.svg"
-            />
-            <span class="search-text">NEW</span>
-          </span>
-          
+          />
+          <img
+            class="search-image"
+            src="images/icons/2561351_camera_icon.svg"
+          />
+          <span class="search-text">NEW</span>
+
           <select>
             <option>all products</option>
             <option>home</option>
@@ -49,48 +48,51 @@
               <div><a class="icons-text" href="#">sign In</a></div>
               <div><a class="icons-text" href="#">join free</a></div>
             </div>
+            <div class="box-icons"></div>
           </div>
 
           <div class="icons-item">
-            <div class="far fa-comment-dots"></div>
-            <div class="menu-icons">
-              <a class="icons-text" href="#">messages</a>
+            <a class="link-icons" href="#">
+              <div class="far fa-comment-dots"></div>
+              <div class="icons-text" href="#">messages</div>
+            </a>
 
-              <div>
-                <span class="sub-menu-icons">
-                  <h5>Unread message Reminder</h5>
-                  <p>please log-in</p>
-                  <p class="message-login">log-in</p>
-                </span>
-              </div>
+            <div class="menu-icons box-icons">
+              
+                <h5>Unread message Reminder</h5>
+                <p>please log-in</p>
+                <p class="message-login">log-in</p>
+              
             </div>
           </div>
 
           <div class="icons-item">
-            <div class="fab fa-first-order"></div>
-            <div class="menu-icons">
-              <a class="icons-text" href="#">orders</a>
-              <div>
-                <span class="sub-menu-orders">
-                  <span class="order-text">Free</span>
-                  <h5>Trade Assurance</h5>
-                  <ul>
-                    <li>Product quality</li>
-                    <li>On time shipment</li>
-                  </ul>
-                  <h6 class="message-login">order with Trade Assurance</h6>
-                </span>
-              </div>
+            <a class="link-icons" href="#">
+              <div class="fab fa-first-order"></div>
+              <div class="icons-text" href="#">orders</div>
+            </a>
+            <div class="list-orders box-icons">
+              
+                <span class="order-text">Free</span>
+                <h5>Trade Assurance</h5>
+                <ul>
+                  <li>Product quality</li>
+                  <li>On time shipment</li>
+                </ul>
+                <h6 class="message-login">order with Trade Assurance</h6>
+              
             </div>
           </div>
 
           <div class="icons-item">
-            <div class="fas fa-shopping-basket"></div>
-            <div class="shopping-cart">
-              <a class="icons-text" href="#">cart</a>
+            <a class="link-icons" href="#">
+              <div class="fas fa-shopping-basket"></div>
               <span class="number">0</span>
-              <span class="cart-text"
-                >you haven't login
+              <div class="icons-text" href="#">cart</div>
+            </a>
+            <div class="list-cart box-icons">
+              <span class="cart-text">
+                you haven't login
                 <a class="icons-text" href="#">Please log-in</a>
               </span>
             </div>
