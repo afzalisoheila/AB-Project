@@ -1,16 +1,10 @@
-@import url("assets/fonts/timr45w.ttf");
-
-@font-face {
-  font-family: times;
-  src: url("CSS/fonts/");
-}
 
 body {
   margin: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input,select,a,h4,button{
+input,select,a,h4{
   font-family: times;
 }
 
@@ -402,7 +396,7 @@ footer {
   display: ;
 } */
 .banners .child-1-col-1 {
-  background-image: url("assets/images/banners/col-1-child-1.jpg");
+  background-image: url(../images/banners/col-1-child-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -431,7 +425,7 @@ footer {
   display: flex;
 }
 .banners .child-2-col-1 {
-  background: url("images/banners/col-1-child-2.jpg");
+  background-image: url(../images/banners/col-1-child-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -441,7 +435,7 @@ footer {
   margin: 10px;
 }
 .banners .child-1-col-2 {
-  background-image: url(/assets/images/banners/col-1-child-1.jpg);
+  background-image: url(../images/banners/col-2-child-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -452,7 +446,7 @@ footer {
 }
 
 .banners .child-2-col-2 {
-  background-image: url(images/banners/col-2-child-2.jpg);
+  background-image: url(../images/banners/col-2-child-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -462,7 +456,7 @@ footer {
   margin: 10px;
 }
 .banners .child-1-col-3 {
-  background-image: url(assets/images/banners/col-3-child-1.jpg);
+  background-image: url(../images/banners/col-3-child-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -473,7 +467,7 @@ footer {
 }
 
 .banners .child-2-col-3 {
-  background-image: url(images/banners/col-3-child-2.png);
+  background-image: url(../images/banners/col-3-child-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
