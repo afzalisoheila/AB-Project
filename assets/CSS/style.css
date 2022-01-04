@@ -487,5 +487,41 @@ footer {
 .nav-footer:hover{
   text-decoration: underline;
 }
+@media screen and (max-width:400px) {
+  #search input , #search select {
+    display: none;
+  }
+  #icons{
+    display: none;
 
+  }
+  #search button{
+    border-radius: 0 5px 5px 0;
+    margin: 5px;
+    height: 65%;
+    width: 40%;
 
+  } 
+  #logo-images{
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  #buyer-protection{
+    height: auto;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .icon-buyer-protection {
+    display: none;
+  }
+  ul{
+    list-style: none;
+
+  }
+  #top-footer {
+    padding: 0;
+  }
+  .banners {
+    display: block;
+  }
+}
