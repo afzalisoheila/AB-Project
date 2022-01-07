@@ -349,22 +349,21 @@ footer {
 }
 
 .box-category{
-    display: flex;
-    margin: 5px;
-    width: 600px;
-    padding: 12px 40px;
-    box-shadow: 0px 1px 10px 0 #00000082;
-    color: #333333c4;
-    left: 330px;
-    background-color: #f9f8f8f2;
-    bottom: 1Opx;
-    top: 0;
-    z-index: 1px;
-    position: absolute;
-    justify-content: space-around;
-    display: none; 
-
+  display: flex;
+  margin: 5px;
+  width: 600px; 
+  padding: 12px 40px;
+  box-shadow: 0px 1px 10px 0 #00000082;
+  color: #333333c4;
+  left: 269px;
+  background-color: #f9f8f8f2;
+  position: absolute;
+  justify-content: space-around;
+  display: none; 
+  top: -21px;
+  z-index: 100; 
 }
+ 
 
 .left-category-list{
     list-style-type: none;
@@ -376,7 +375,8 @@ footer {
 
 .category-item:hover .box-category{
     display: flex;
-}
+} 
+
 /* ///////////banners///////////// */
 
 .banners {
