@@ -429,6 +429,10 @@ footer {
   width: 355px;
   height: 200px;
   margin: 10px;
+  transition:transform linear 2s; 
+}
+.banners .child-2-col-1:hover{
+  transform: rotate(360deg);
 }
 .banners .child-1-col-2 {
   background-image: url(../images/banners/col-2-child-1.jpg);
@@ -439,8 +443,13 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
+  transition:height linear 2s, width 3s; 
 }
-
+.banners .child-1-col-2:hover{
+   height:220px;
+   width:400px ;
+   background-color: #dd0000;
+}
 .banners .child-2-col-2 {
   background-image: url(../images/banners/col-2-child-2.jpg);
   background-repeat: no-repeat;
@@ -450,6 +459,10 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
+  transition: transform 1s linear 1s;
+}
+.banners .child-2-col-2:hover{
+  transform: scale(0.5);
 }
 .banners .child-1-col-3 {
   background-image: url(../images/banners/col-3-child-1.jpg);
@@ -460,8 +473,11 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
+  transition: transform ease-in-out 3s;
 }
-
+.banners .child-1-col-3:hover{
+  transform: scale(1.1);
+}
 .banners .child-2-col-3 {
   background-image: url(../images/banners/col-3-child-2.png);
   background-repeat: no-repeat;
@@ -471,6 +487,10 @@ footer {
   width: 335px;
   height: 200px;
   margin: 10px;
+  transition: transform ease-in-out 3s;
+}
+.banners .child-2-col-3:hover{
+  transform: skew(180deg);
 }
 #top-footer {
   height: 100%;
