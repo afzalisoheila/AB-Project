@@ -541,3 +541,16 @@ footer {
     display: block;
   }
 } */
+.fa-angle-down{
+  color: gray;
+  font-size: 10pt;
+  margin-left: 5px;
+  padding-top: 2px;
+  transform: translateY(0);
+  animation: changeArrowDown 1s linear 3s infinite alternate;
+}
+@keyframes changeArrowDown {
+  from{transform: translateY(0);}
+  to{transform: translateY(5px);}
+  
+}
