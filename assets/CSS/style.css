@@ -4,7 +4,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input,select,a,h4{
+input,select,a,h4,h3{
   font-family: times;
 }
 
@@ -261,7 +261,7 @@ main {
 
 #left-category {
   width: 30%;
-  margin-right: 10px;
+  margin-right: -34px;
 }
 #categories{
   padding: 0;
@@ -273,16 +273,17 @@ main {
 }
 
 #slider-image {
-  width: 50%;
+  width: 40%;
   height: 70%;
   border-radius: 50px;
-  box-shadow: 0 0 14px 14px black;  
+  box-shadow: 0 0 14px 14px rgb(218, 214, 214); 
+  overflow: hidden;
 }
 
 #slider-image img {
   width: 100%;
   height: 100%; 
-  overflow: hidden; 
+  
 }
 .category-item {
   display: flex;
@@ -335,6 +336,76 @@ main {
   height: 18px;
   width: 35px;
 }
+#right-category{
+  width: 30%;
+  padding: 0 0 0 18px;
+}
+.firstRaw{
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom:solid 2px rgb(240, 234, 234) ;
+  position: relative;
+  height: 40%;
+}
+.firstRaw-image{
+  background-image: url(../images/right-category-img/right-category\ first-350.jpg_100x100.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  position: absolute; 
+  bottom: 0px;
+  left: 327px;   
+}
+.firstRaw-text{
+  height: 28px;
+  background-color:#e35300 ;
+  color: white;
+  border: none;
+  width: 330px;
+}
+.right-category{
+  border-radius: 33px;
+  border : none;
+  background-color:#e35300 ;
+  color: white;
+  height: 28px;
+  width: 100px;
+}
+.heading-rightCat{
+  color: grey;
+}
+.Raw{
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom:solid 2px rgb(240, 234, 234) ;
+  position: relative;
+  height: 20%;
+}
+.secondRaw-image{
+  background-image: url(../images/right-category-img/right-category\ second-350.jpg_100x100.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  position: absolute; 
+  bottom: 0px;
+  left: 327px;   
+}
+.thirdRaw-image{
+  background-image: url(../images/right-category-img/right-category-third-tps-350-350.jpg_100x100\ \(1\).webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  position: absolute; 
+  bottom: 0px;
+  left: 327px;   
+}
+
 .search_btn img {
   width: 30%;
   display: inline-block;
