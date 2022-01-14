@@ -4,7 +4,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input,select,a,h4,h3{
+input,select,a,h4,h3,h2,h1{
   font-family: times;
 }
 
@@ -193,7 +193,7 @@ display: inline-block;
   width: 121px;
   color: gray;
   font-size: 8pt;
-  /* display: none;  */
+  display: none;  
   z-index: 300px;
   
 }
@@ -357,6 +357,12 @@ main {
   position: absolute; 
   bottom: 0px;
   left: 327px;   
+  transition: transform ease-in-out 5s;
+}
+.firstRaw-image:hover{
+border-right: 1px solid rgb(59, 57, 57);
+border-bottom: 1px solid rgb(59, 57, 57);
+transform: scale(1.1);
 }
 .firstRaw-text{
   height: 28px;
@@ -364,6 +370,8 @@ main {
   color: white;
   border: none;
   width: 330px;
+
+
 }
 .right-category{
   border-radius: 33px;
@@ -393,7 +401,13 @@ main {
   position: absolute; 
   bottom: 0px;
   left: 327px;   
+  transition: transform ease-in-out 5s;
 }
+.secondRaw-image:hover{
+  border-right: 1px solid rgb(59, 57, 57);
+  border-bottom: 1px solid rgb(59, 57, 57);
+  transform: scale(1.1);
+  }
 .thirdRaw-image{
   background-image: url(../images/right-category-img/right-category-third-tps-350-350.jpg_100x100\ \(1\).webp);
   background-repeat: no-repeat;
@@ -404,7 +418,13 @@ main {
   position: absolute; 
   bottom: 0px;
   left: 327px;   
+  transition: transform ease-in-out 5s;
 }
+.thirdRaw-image:hover{
+  border-right: 1px solid rgb(59, 57, 57);
+  border-bottom: 1px solid rgb(59, 57, 57);
+  transform: scale(1.1);
+  }
 
 .search_btn img {
   width: 30%;
@@ -449,6 +469,51 @@ footer {
 } 
 
 /* ///////////banners///////////// */
+.divider{
+  width: 95%;
+  height: 50px;
+  border-bottom: solid gray 5px;
+  margin: auto;
+  position: relative;
+}
+.divider-text{
+  color: #333;
+  position: absolute;
+  bottom: 0px;
+}
+.banners2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.banners2-col1{
+  background-image: url(../images/banners2/col1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 320px;
+  height: 300px;
+  margin: 10px;
+  position: relative; 
+}
+.banners2-text1{
+  color: white;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.banners2-btn1{
+
+border-radius: 33px;
+border: none;
+background-color: white;
+color: black;
+height: 28px;
+width: 100px;
+margin-left: 20px;
+position: absolute;
+bottom: 35px;
+right: 200px;
+}
+
 
 .banners {
   display: flex;
