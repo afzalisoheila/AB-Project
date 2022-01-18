@@ -470,20 +470,27 @@ footer {
 
 /* ///////////banners///////////// */
 .divider{
-  width: 95%;
-  height: 50px;
-  border-bottom: solid gray 5px;
-  margin: auto;
-  position: relative;
+
+  display: flex;
+  justify-content: flex-start;
+  position: relative; 
+  
 }
 .divider-text{
-  color: #333;
-  position: absolute;
-  bottom: 0px;
+  color: gray;
+  margin-left: 63px;
+  margin-bottom: 5px;
+}
+.divider-border{
+    border-bottom: 3px solid  gray;
+    position: absolute;
+    top: 42px;
+    left: 357px;
+    width: 900px;
 }
 .banners2 {
   display: flex;
-  justify-content: space-evenly;
+  
 }
 .banners2-col1{
   background-image: url(../images/banners2/col1.png);
@@ -492,9 +499,21 @@ footer {
   background-position: center;
   width: 320px;
   height: 300px;
-  margin: 10px;
+  margin-left: 63px;
+  margin-bottom: 5px;
+  padding: 5px;
   position: relative; 
 }
+.banners2-col2{
+  width: 160px;
+  height: 300px;
+  margin-left: 63px;
+  margin-bottom: 5px;
+  padding: 5px;
+  position: relative;
+  border-right: solid 1px grey;
+}
+  
 .banners2-text1{
   color: white;
   margin-left: 20px;
