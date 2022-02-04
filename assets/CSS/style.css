@@ -696,6 +696,7 @@ right: 200px;
 .nav-footer:hover{
   text-decoration: underline;
 }
+
 /* @media screen and (max-width:400px) {
   #search input , #search select {
     display: none;
